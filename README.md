@@ -12,15 +12,12 @@ clang(v_6.0.0)
 
 **Procedure:**
 
-Clone the Repository using git or Download zip.You will have C/C++ normal souce Codes  in *Test SampleCodes*file and their .ll
-files in *Test Sample_ll_files* . Obfuscated Codes in *Obfuscated code* and their .ll files in *Obfuscated_ll_files*.
-You Can Use Your own Sample codes and Obfuscate them using any products like(Semantic design,Star Force etc..) then generate
-ll files using Clang or CLang++.
+Clone the Repository using git or Download zip.You will have C/C++ normal souce Codes  in *Test Sample Codes* folder and their llvm files in *Test Sample_ll_files* .*Obfuscated Codes* folder contains the source codes after obfuscation, and their llvm files in *Obfuscated_ll_files*.
 
-Now Create your own Binaries(.so files)  with specific Dimensions(like 200D,300D etc..).Now with These binaries generate *Vectors*.
-for the Normal codes and Obfuscated Codes using their '.ll' files.
+You Can Use Your own Sample codes and Obfuscate them using any Obfuscator tools (like Semantic design,Star Force etc..) then generate llvm files using Clang or CLang++.
 
-In the Main code change the file paths to your Own vector files and Run the Code.
+Now Create your Own Binaries(.so files)  with specific Dimensions(like 200D,300D etc..) Using These binaries generate *Vectors* for the Normal codes and Obfuscated Codes by using their llvm files.
+
+In the code Main.py change the Files paths to your Own generated Vector files and Run the Code.
 
 Output file will be generated.
-
