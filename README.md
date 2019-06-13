@@ -2,13 +2,13 @@
 
 **PreRequisite:**
 
->Python(3.4.0)
+*Python(3.4.0)*
 
->numpy(v_1.16.4)
+*numpy(v_1.16.4)*
 
->scipy(V_1.3.0)
+*scipy(V_1.3.0)*
 
->clang(v_6.0.0)
+*clang(v_6.0.0)*
 
 **Procedure:**
 
