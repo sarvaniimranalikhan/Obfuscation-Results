@@ -1,0 +1,49 @@
+#include \
+<iostream>
+using
+namespace
+std
+;
+int
+lo
+(
+)
+{
+string
+i0
+,
+I0
+;
+cout
+<<
+"\105\156t\145\162 string \1631:\040"
+;
+getline
+(
+cin
+,
+i0
+)
+;
+I0
+=
+i0
+;
+cout
+<<
+"s1\040\075 "
+<<
+i0
+<<
+endl
+;
+cout
+<<
+"\1632\040= "
+<<
+I0
+;
+return
+0
+;
+}
