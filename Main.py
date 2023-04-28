@@ -10,7 +10,7 @@ d1 = OrderedDict()
 
 
 
-for row in f1.readlines():
+for row in f1.readlines() :
     x = row.strip().split('=')
     k = x[0].strip()
     v = x[1].strip().split('\t')
